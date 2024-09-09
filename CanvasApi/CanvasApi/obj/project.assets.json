@@ -510,11 +510,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmcculley\\Desktop\\SchoolProject\\SchoolProject\\SchoolProject.csproj",
-      "projectName": "SchoolProject",
-      "projectPath": "C:\\Users\\cmcculley\\Desktop\\SchoolProject\\SchoolProject\\SchoolProject.csproj",
+      "projectUniqueName": "C:\\Users\\cmcculley\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
+      "projectName": "CanvasApi",
+      "projectPath": "C:\\Users\\cmcculley\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
       "packagesPath": "C:\\Users\\cmcculley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmcculley\\Desktop\\SchoolProject\\SchoolProject\\obj\\",
+      "outputPath": "C:\\Users\\cmcculley\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

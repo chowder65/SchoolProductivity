@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolProject", "SchoolProject\SchoolProject.csproj", "{2850A58B-84D0-42C5-98CA-D88E7DA8D795}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasApi", "CanvasApi\CanvasApi.csproj", "{2850A58B-84D0-42C5-98CA-D88E7DA8D795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

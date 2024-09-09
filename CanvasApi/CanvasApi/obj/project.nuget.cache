@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qi++8br1WK01VJ3I6XPuLPeq1eUwTzY9S9xpAFHqZTKMogMeIcm0F5Ra2PVtJFADLO1pWxedB6WJpiir8ncRPA==",
+  "dgSpecHash": "TXJeRhtMbHqp3fiQm2xRyLATKv4jQ3km5L6vEg5A5mImZ7eAOXX0gpJROQ0SetIThRTHadDMlPoNVvd5P+OGJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cmcculley\\Desktop\\SchoolProject\\SchoolProject\\SchoolProject.csproj",
+  "projectFilePath": "C:\\Users\\cmcculley\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cmcculley\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
     "C:\\Users\\cmcculley\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
