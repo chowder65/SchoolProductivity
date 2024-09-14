@@ -41,6 +41,7 @@ app.MapGet("/getAssignments", async () =>
                     var courseName = course.name?.ToString();
                     if (courseID != null && courseName != null)
                     {
+                        Console.WriteLine("End At: " + course.end_at);
                         courseDictionary[courseID] = courseName;
                         Console.WriteLine("Course ID: " + courseID + ", Course Name: " + courseName);
                     }
@@ -54,7 +55,7 @@ app.MapGet("/getAssignments", async () =>
             var courseName = kvp.Value;
 
             using (HttpResponseMessage res = await client.GetAsync(
-                       $"https://canvas.instructure.com/api/v1/courses/{courseID}/assignments?access_token=349~AHRH3c4DNYvQ8c9XKB8DYGCGr62CHcze9FCBD4CAEN8vn96F8WP2JKBPUcKXA3L9"))
+                    $"https://canvas.instructure.com/api/v1/courses/{courseID}/assignments?access_token=349~AHRH3c4DNYvQ8c9XKB8DYGCGr62CHcze9FCBD4CAEN8vn96F8WP2JKBPUcKXA3L9"))
             {
                 res.EnsureSuccessStatusCode();
                 
@@ -72,7 +73,7 @@ app.MapGet("/getAssignments", async () =>
                 
                     var assignment = new
                     {
-                        CourseName = courseName, // Include course name
+                        CourseName = courseName,
                         AssignmentName = assignmentName,
                         AssignmentDescription = assignmentDescription,
                         AssignmentDueDate = assignmentDueDate
@@ -89,7 +90,7 @@ app.MapGet("/getAssignments", async () =>
         var jsonResult = JsonConvert.SerializeObject(assignmentsList);
         Console.WriteLine("Final Return: \n" + jsonResult);
         
-        return Results.Json(assignmentsList); // Return as structured JSON
+        return Results.Json(assignmentsList);
     }
 
 }).WithName("GetAssignments").WithOpenApi();
