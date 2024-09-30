@@ -1,11 +1,28 @@
 using Newtonsoft.Json;
+<<<<<<< HEAD:CanvasApi/CanvasApi/Controllers/Program.cs
+using MongoDB.Driver;
+using MongoDB.Bson;
+
+var connectionString = "mongodb://localhost:27017";
+
+var client = new MongoClient(connectionString);
+
+var collection = client.GetDatabase("sample_mflix").GetCollection<BsonDocument>("movies");
+
+//var insertResult = await collection.InsertOneAsync({ Name = "Mongo's Pizza" });
+=======
+>>>>>>> parent of 87175d0 (worked further on making the application work with a database):CanvasApi/CanvasApi/Program.cs
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.MapControllers();
+app.UseRouting();
 
 if (app.Environment.IsDevelopment())
 {
