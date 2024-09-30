@@ -509,11 +509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mccul\\Desktop\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
+      "projectUniqueName": "C:\\Users\\mccul\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
       "projectName": "CanvasApi",
-      "projectPath": "C:\\Users\\mccul\\Desktop\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
+      "projectPath": "C:\\Users\\mccul\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\CanvasApi.csproj",
       "packagesPath": "C:\\Users\\mccul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mccul\\Desktop\\SchoolProductivity\\CanvasApi\\CanvasApi\\obj\\",
+      "outputPath": "C:\\Users\\mccul\\Documents\\GitHub\\SchoolProductivity\\CanvasApi\\CanvasApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mccul\\AppData\\Roaming\\NuGet\\NuGet.Config"
